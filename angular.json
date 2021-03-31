@@ -52,6 +52,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -106,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "pilikino"
+  "defaultProject": "pilikino",
+  "cli": {
+    "analytics": "bab8bd62-5944-4b67-b571-7abf8be001d8"
+  }
 }
