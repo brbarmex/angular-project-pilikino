@@ -1,0 +1,16 @@
+.dash-container{ 
+    display: flex;
+}
+
+.dash-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.dash-top > section {
+    margin: 10px;
+}

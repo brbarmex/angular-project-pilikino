@@ -1,0 +1,13 @@
+<mat-toolbar color="primary" class="mat-elevation-z8">
+    <button mat-icon-button color="white" [matMenuTriggerFor]="lancamentos"><mat-icon>menu</mat-icon></button>
+    <mat-menu #lancamentos="matMenu">
+      <button mat-menu-item><mat-icon class="nav-icon">library_add</mat-icon>Despesas</button>
+      <button mat-menu-item><mat-icon class="nav-icon">category</mat-icon> Categorias</button>
+      <button mat-menu-item><mat-icon class="nav-icon">credit_card</mat-icon> Cartões</button>
+    </mat-menu>
+    <div class="spacer"></div>
+    <span>
+      <mat-icon>econ</mat-icon>
+      Pilikino
+    </span>
+</mat-toolbar>

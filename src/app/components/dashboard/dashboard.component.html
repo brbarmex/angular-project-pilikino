@@ -1,0 +1,32 @@
+<section class="dash-container">
+  <section class="dash-top">
+    <section>
+      <app-dashboard-card-out-in
+       [card-subtitle]="in_out.subtitle"
+       [card-title]="in_out.title"
+       [card-total-in]="in_out.in"
+       [card-total-out]="in_out.out"
+       [card-label-top]="in_out.labelTop"
+       [card-label-bottom]="in_out.labelBottom"
+      >
+      </app-dashboard-card-out-in>
+    </section>
+    <section>
+      <app-dashboard-card-out-in
+       [card-subtitle]="outgoing.subtitle"
+       [card-title]="outgoing.title"
+       [card-total-in]="outgoing.in"
+       [card-total-out]="outgoing.out"
+       [card-label-top]="outgoing.labelTop"
+       [card-label-bottom]="outgoing.labelBottom"
+      >
+      </app-dashboard-card-out-in>
+    </section>
+    <section>
+      <app-chart-pier></app-chart-pier>
+    </section>
+    <section>
+      <app-chart-bar></app-chart-bar>
+    </section>
+  </section>
+</section>
