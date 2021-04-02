@@ -31,18 +31,18 @@ export class ChartBarComponent implements OnInit {
   public pieChartColors = [
     {
       backgroundColor: [
-        "#FFA54F",
-        "#7CFC00",
-        "#CD1076",
-        "#FA8072",
-        "#00BFFF",
-        "#9370DB",
-        "#9ACD32",
-        "#EEEE00",
-        "#F4A460",
-        "#B03060",
-        "#FF0000",
-        "#9400D3"
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0",
+        "#A020F0"
       ],
     },
   ];

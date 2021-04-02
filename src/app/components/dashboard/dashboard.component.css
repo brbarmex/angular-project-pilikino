@@ -13,4 +13,19 @@
 
 .dash-top > section {
     margin: 10px;
+    flex-grow: 1;
+}
+
+@media only screen and (min-width: 1200px)
+{
+    .dash-top > section {
+        margin-left: 25px;
+        padding-left: 10px;
+    }
+}
+
+.main{
+    flex-direction:column;
+    justify-content: center;
+    margin: 10px;
 }

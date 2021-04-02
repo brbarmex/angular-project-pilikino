@@ -28,5 +28,19 @@
     <section>
       <app-chart-bar></app-chart-bar>
     </section>
+    <section>
+      <app-dashboard-card-out-in
+       [card-subtitle]="outgoing.subtitle"
+       [card-title]="outgoing.title"
+       [card-total-in]="outgoing.in"
+       [card-total-out]="outgoing.out"
+       [card-label-top]="outgoing.labelTop"
+       [card-label-bottom]="outgoing.labelBottom"
+      >
+      </app-dashboard-card-out-in>
+    </section>
   </section>
+</section>
+<section class="main .dash-container">
+  <app-despesas-table></app-despesas-table>
 </section>

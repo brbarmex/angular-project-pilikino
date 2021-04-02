@@ -10,7 +10,7 @@ export class DashboardComponent implements OnInit {
 
   public in_out : CardBasicInterface = {
     title:"Totais",
-    subtitle:"Resumo de entrada e saída do mês corrente:",
+    subtitle:"Resumo de entrada e saída do mês corrente:  ",
     out:"3.000,00",
     in:"8.000,00",
     labelTop:"Saída",

@@ -1,0 +1,8 @@
+.table-container {
+  height: 560px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
