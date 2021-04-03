@@ -1,7 +1,7 @@
 <section class="dash-container">
   <section class="dash-top">
     <section>
-      <app-dashboard-card-out-in
+      <app-basic-card
        [card-subtitle]="in_out.subtitle"
        [card-title]="in_out.title"
        [card-total-in]="in_out.in"
@@ -9,10 +9,10 @@
        [card-label-top]="in_out.labelTop"
        [card-label-bottom]="in_out.labelBottom"
       >
-      </app-dashboard-card-out-in>
+      </app-basic-card>
     </section>
     <section>
-      <app-dashboard-card-out-in
+      <app-basic-card
        [card-subtitle]="outgoing.subtitle"
        [card-title]="outgoing.title"
        [card-total-in]="outgoing.in"
@@ -20,7 +20,7 @@
        [card-label-top]="outgoing.labelTop"
        [card-label-bottom]="outgoing.labelBottom"
       >
-      </app-dashboard-card-out-in>
+      </app-basic-card>
     </section>
     <section>
       <app-chart-pier></app-chart-pier>
@@ -29,7 +29,7 @@
       <app-chart-bar></app-chart-bar>
     </section>
     <section>
-      <app-dashboard-card-out-in
+      <app-basic-card
        [card-subtitle]="outgoing.subtitle"
        [card-title]="outgoing.title"
        [card-total-in]="outgoing.in"
@@ -37,7 +37,7 @@
        [card-label-top]="outgoing.labelTop"
        [card-label-bottom]="outgoing.labelBottom"
       >
-      </app-dashboard-card-out-in>
+      </app-basic-card>
     </section>
   </section>
 </section>

@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-dashboard-card-out-in',
-  templateUrl: './dashboard-card-out-in.component.html',
-  styleUrls: ['./dashboard-card-out-in.component.css']
+  selector: 'app-basic-card',
+  templateUrl: './basic-card.component.html',
+  styleUrls: ['./basic-card.component.css']
 })
-export class DashboardCardOutInComponent {
+export class BasicCardComponent {
   @Input("card-title") cardTitle: string = "";
   @Input("card-subtitle") cardSubTitle: string = "";
   @Input("card-total-out") cardTotalOut: string = "";
