@@ -11,17 +11,27 @@ import { MatMenuModule } from "@angular/material/menu";
 import { MatCardModule } from "@angular/material/card";
 import { MatTableModule } from "@angular/material/table";
 import { MatDialogModule } from "@angular/material/dialog";
+import { MatFormFieldModule } from "@angular/material/form-field";
 import { ChartsModule } from "ng2-charts";
+import { MatCheckboxModule } from "@angular/material/checkbox";
+import { MatSelectModule } from "@angular/material/select";
+import { FormsModule }   from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { HeaderComponent } from "./components/shared/header/header.component";
 import { NavComponent } from "./components/shared/nav/nav.component";
 import { CalendarComponent } from "./components/calendar/calendar.component";
 import { DashboardComponent } from "./components/dashboard/dashboard.component";
-import { ChartPierComponent } from "./components/chart-pier/chart-pier.component";
-import { ChartBarComponent } from "./components/chart-bar/chart-bar.component";
-import { BasicCardComponent } from "./components/basic-card/basic-card.component";
-import { DespesasTableComponent } from "./components/despesas-table/despesas-table.component";
+import { ChartPierComponent } from "./components/dashboard/chart-pier/chart-pier.component";
+import { ChartBarComponent } from "./components/dashboard/chart-bar/chart-bar.component";
+import { DespesasTableComponent } from "./components/despesas/despesas-table/despesas-table.component";
 import { FooterComponent } from "./components/shared/footer/footer.component";
+import { IncluirDespesaComponent } from "./components/despesas/incluir-despesa/incluir-despesa.component";
+import { AdicionarSaldoComponent } from './components/adicionar-saldo/adicionar-saldo.component';
+import { MainComponent } from './components/dashboard/main/main.component';
+import { CardTotalSumaryComponent } from './components/dashboard/card-total-sumary/card-total-sumary.component';
+import { CardMonthSumaryComponent } from './components/dashboard/card-month-sumary/card-month-sumary.component';
 
 @NgModule({
   declarations: [
@@ -32,9 +42,13 @@ import { FooterComponent } from "./components/shared/footer/footer.component";
     DashboardComponent,
     ChartPierComponent,
     ChartBarComponent,
-    BasicCardComponent,
     DespesasTableComponent,
     FooterComponent,
+    IncluirDespesaComponent,
+    AdicionarSaldoComponent,
+    MainComponent,
+    CardTotalSumaryComponent,
+    CardMonthSumaryComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,6 +63,11 @@ import { FooterComponent } from "./components/shared/footer/footer.component";
     ChartsModule,
     MatTableModule,
     MatDialogModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatCheckboxModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
