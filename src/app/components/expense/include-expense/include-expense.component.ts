@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-incluir-despesa',
-  templateUrl: './incluir-despesa.component.html',
-  styleUrls: ['./incluir-despesa.component.css']
+  selector: 'app-include-expense',
+  templateUrl: './include-expense.component.html',
+  styleUrls: ['./include-expense.component.css']
 })
-export class IncluirDespesaComponent implements OnInit {
+export class IncludeExpenseComponent implements OnInit {
 
   showSelectOptionForPart : boolean = false;
 

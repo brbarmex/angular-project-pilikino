@@ -1,19 +1,19 @@
 <section class="dash-container">
-    <section class="dash-top">
-      <section>
-        <app-card-total-sumary></app-card-total-sumary>
-      </section>
-      <section>
-        <app-dash-card-month-sumary></app-dash-card-month-sumary>
-      </section>
-      <section>
-        <app-dash-chart-pier></app-dash-chart-pier>
-      </section>
-      <section>
-        <app-dash-chart-bar></app-dash-chart-bar>
-      </section>
-      <section>
-        <!-- <app-basic-card
+  <section class="dash-top">
+    <section>
+      <app-card-total-sumary></app-card-total-sumary>
+    </section>
+    <section>
+      <app-dash-card-month-sumary></app-dash-card-month-sumary>
+    </section>
+    <section>
+      <app-dash-chart-pier></app-dash-chart-pier>
+    </section>
+    <section>
+      <app-dash-chart-bar></app-dash-chart-bar>
+    </section>
+    <section>
+      <!-- <app-basic-card
          [card-subtitle]="outgoing.subtitle"
          [card-title]="outgoing.title"
          [card-total-in]="outgoing.in"
@@ -22,10 +22,9 @@
          [card-label-bottom]="outgoing.labelBottom"
         >
         </app-basic-card> -->
-      </section>
     </section>
   </section>
-  <section class="main .dash-container">
-    <app-despesas-table></app-despesas-table>
-  </section>
-  
+</section>
+<section class="main .dash-container">
+  <app-table-expense></app-table-expense>
+</section>

@@ -1,11 +1,11 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "app-despesas-table",
-  templateUrl: "./despesas-table.component.html",
-  styleUrls: ["./despesas-table.component.css"],
+  selector: "app-table-expense",
+  templateUrl: "./table-expense.component.html",
+  styleUrls: ["./table-expense.component.css"],
 })
-export class DespesasTableComponent {
+export class TableExpenseComponent {
   displayedColumns = ["position", "name", "weight"];
   dataSource = ELEMENT_DATA;
 }

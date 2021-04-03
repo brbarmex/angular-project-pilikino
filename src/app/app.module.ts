@@ -24,9 +24,9 @@ import { NavComponent } from "./components/shared/nav/nav.component";
 import { DashboardComponent } from "./components/dashboard/dashboard.component";
 import { DashChartPierComponent } from "./components/dashboard/dash-chart-pier/dash-chart-pier.component";
 import { DashChartBarComponent } from "./components/dashboard/dash-chart-bar/dash-chart-bar.component";
-import { DespesasTableComponent } from "./components/despesas/despesas-table/despesas-table.component";
+import { TableExpenseComponent } from "./components/expense/table-expense/table-expense.component";
 import { FooterComponent } from "./components/shared/footer/footer.component";
-import { IncluirDespesaComponent } from "./components/despesas/incluir-despesa/incluir-despesa.component";
+import { IncludeExpenseComponent } from "./components/expense/include-expense/include-expense.component";
 import { AdicionarSaldoComponent } from './components/adicionar-saldo/adicionar-saldo.component';
 import { DashMainComponent } from './components/dashboard/dash-main/dash-main.component';
 import { DashCardTotalSumaryComponent } from './components/dashboard/dash-card-total-sumary/dash-card-total-sumary.component';
@@ -40,9 +40,9 @@ import { DashCardMonthSumaryComponent } from './components/dashboard/dash-card-m
     DashboardComponent,
     DashChartPierComponent,
     DashChartBarComponent,
-    DespesasTableComponent,
+    TableExpenseComponent,
     FooterComponent,
-    IncluirDespesaComponent,
+    IncludeExpenseComponent,
     AdicionarSaldoComponent,
     DashMainComponent,
     DashCardTotalSumaryComponent,
