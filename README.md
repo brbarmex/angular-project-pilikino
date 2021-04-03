@@ -1,6 +1,9 @@
-# Pilikino
+# Pilikino (Construction...)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+
+<img src="pilikino-project.png"  width="800" height="400">
 
 ## Development server
 
