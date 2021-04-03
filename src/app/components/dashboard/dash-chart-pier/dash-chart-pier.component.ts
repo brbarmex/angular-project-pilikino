@@ -8,11 +8,11 @@ import {
 } from "ng2-charts";
 
 @Component({
-  selector: "app-chart-pier",
-  templateUrl: "./chart-pier.component.html",
-  styleUrls: ["./chart-pier.component.css"],
+  selector: "app-dash-chart-pier",
+  templateUrl: "./dash-chart-pier.component.html",
+  styleUrls: ["./dash-chart-pier.component.css"],
 })
-export class ChartPierComponent implements OnInit {
+export class DashChartPierComponent implements OnInit {
   public pieChartOptions: ChartOptions = {
     responsive: true,
     legend: {

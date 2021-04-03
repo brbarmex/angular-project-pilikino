@@ -3,9 +3,9 @@ import { BalanceService } from '../services/balance.service';
 
 @Component({
   selector: 'app-card-total-sumary',
-  templateUrl: './card-total-sumary.component.html'
+  templateUrl: './dash-card-total-sumary.component.html'
 })
-export class CardTotalSumaryComponent {
+export class DashCardTotalSumaryComponent {
 
   cardTotalIn: number = 0;
   cardTotalOut: number = 0;

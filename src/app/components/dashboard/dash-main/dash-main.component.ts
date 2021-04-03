@@ -3,11 +3,11 @@ import { BalanceService } from "../services/balance.service";
 import { DashService } from "../services/dash.service";
 
 @Component({
-  selector: "app-main",
-  templateUrl: "./main.component.html",
-  styleUrls: ["./main.component.css"],
+  selector: "app-dash-main",
+  templateUrl: "./dash-main.component.html",
+  styleUrls: ["./dash-main.component.css"],
 })
-export class MainComponent implements OnInit {
+export class DashMainComponent implements OnInit {
   
   constructor(
     private dashboardService: DashService,
